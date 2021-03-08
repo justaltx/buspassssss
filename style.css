@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/cssfamily=IBM+Plex+Sans+Condensed|Lato&amp;display=swap'); 
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.zoom{
+    height: 200px;
+    width: 320%;
+    
+}
+
+.top_top{
+    height: 450px;
+    background-color: white;
+    
+}
+
+.close{
+    color: black;
+    line-height: 450px;
+    font-size: 18rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-left: 100%
+}
+
+.main{
+    height: 1000px;
+    width: 125%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    zoom: 860%;
+}
+
+.top{
+    background-color: #f1203e;
+    height: 80px;
+    padding: 5px 5px 5px;
+    margin-bottom: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    
+}
+
+.student{
+    color: #fdfbfb;
+    line-height: 60px;
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    font-weight: 900;
+    
+}
+
+.barcode_full{
+    background-color: #ffffffff;
+    height: 460px; 
+}
+
+.barcode_background{
+    background-color: ;
+    height: 360px;
+    padding: 40px 120px 0px;
+    
+}
+
+.studentt{
+    color: darkgrey;
+    line-height: px;
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 800;
+    
+}
+
+.background_img{
+    background-color:blueviolet;
+    height: 100%;
+    margin-top: -10px;
+}
+
+.barcode{
+    height: 100%;
+    width: 120%;
+    
+}
+
+.coloursboxborder{
+    width: 630px;
+    position: relative;
+    border-width: thin;
+    border-style: hidden;
+    border-color: grey;
+    border-bottom: 700px;
+    padding-left: 17.5px;
+    border-radius: 6.5px;
+}
+
+.clock{
+    color: white;
+    position: absolute;
+    margin-top: -685px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    border-radius: 0px;
+    text-shadow: -2px 0 3px #000, 0 2px 1px #000, 2px 0 3px #000, 0 -2px 3px #000;
+    animation-name: moving;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    border-radius: 0px;
+    border-style: hidden;
+    text-align: centre;
+    line-height: 70px;
+    
+}
+
+@keyframes moving {
+    0% {left: -70px; right: 0px; }
+    25% {left: 0px; right: 150px; }
+    50% {left: -70px; right: 0px; }
+    75% {left: 0px; right: 150px; }
+    100% {left: -70px; right: 0px; }
+}  
+.colour1{
+    position: relative;
+    background-color: #badc32;
+    width: 160px;
+    height: 100px;
+    margin-left: 0px;
+    border-top-left-radius: 10px;
+}
+.colour2{
+    background: #e05367;
+    width: 200px;
+    height: 100px;
+    margin-top: -100px;
+    margin-left: 160px;
+    margin-right: 5px;
+    margin-bottom: 600px;
+}
+.colour3{
+    background:#cece74;
+    width: 160px;
+    height: 100px;
+    margin-top: -700px;
+    margin-left: 315px;
+    margin-right: 0px;
+    margin-bottom: 600px;
+    border-top-right-radius: 10px;
+}
+
+.ticket_top{
+    height: 280px;
+    width: 475px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: -145px
+    
+    
+}
+
+.ticket{
+    height: 100px;
+    background-color: ;
+    margin-left: -4px
+}
+
+.rewards{
+    background-color: #2e9fe0;
+    height: 100px;
+    margin: 10px 15px 20px;
+    
+}
+
+.studenttt{
+    color: #ffffff;
+    line-height: 100px;
+    font-size: 2.6rem;
+    font-family: bold sans-serif;
+    font-weight: 800;
+    
+}
+
+.border{
+    border-left: solid;
+    border-right: solid;
+    border-width: thick;
+        
+}
